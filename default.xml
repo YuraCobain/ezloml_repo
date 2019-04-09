@@ -3,6 +3,7 @@
     <default remote="YuraCobain" revision="default"/>
 
   <!-- You can have as many remote repositories as you like -->
+  <remote name="YuraCobain" fetch="git://github.com/YuraCobain" />
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="oe" fetch="git://git.openembedded.org" />
   <remote name="golang" fetch="git://github.com/madisongh" />
@@ -14,11 +15,11 @@
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
 
-  <project name="meta-ezlo" revision="refs/heads/thud"  remote="ezloml" path="meta-sources" />
-  <project name="meta-sunxi" revision="refs/heads/thud"  remote="sunxi" path="meta-sources" />
-  <project name="meta-golang" revision="master"  remote="golang" path="meta-sources" />
-  <project name="meta-openembedded" revision="refs/heads/thud"  remote="oe" path="meta-sources" />
-  <project name="poky" revision="refs/heads/thud" remote="yocto" path="meta-sources" />
+  <project name="meta-ezlo" revision="refs/heads/thud"  remote="YuraCobain" path="meta-sources/meta-ezlo" />
+  <project name="meta-sunxi" revision="refs/heads/thud"  remote="sunxi" path="meta-sources/meta-sunxi" />
+  <project name="meta-golang" revision="master"  remote="golang" path="meta-sources/meta-golang" />
+  <project name="meta-openembedded" revision="refs/heads/thud"  remote="oe" path="meta-sources/meta-openembedded" />
+  <project name="poky" revision="refs/heads/thud" remote="yocto" path="meta-sources/poky" />
 
 </manifest>
 
