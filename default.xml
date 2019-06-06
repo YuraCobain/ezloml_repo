@@ -6,7 +6,6 @@
   <remote name="ezloteam" fetch="git://github.com/ezloteam" />
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="oe" fetch="git://git.openembedded.org" />
-  <remote name="golang" fetch="git://github.com/madisongh" />
   <remote name="ezloml" fetch="git://github.com/ezloteam" />
   <remote name="sunxi" fetch="git://github.com/linux-sunxi" />
   <!-- List all the repositories you want to fetch -->
@@ -17,7 +16,6 @@
 
   <project name="meta-ezlo" revision="sumo"  remote="ezloteam" path="meta-sources/meta-ezlo" />
   <project name="meta-sunxi" revision="sumo"  remote="sunxi" path="meta-sources/meta-sunxi" />
-  <project name="meta-golang" revision="master"  remote="golang" path="meta-sources/meta-golang" />
   <project name="meta-openembedded" revision="sumo"  remote="oe" path="meta-sources/meta-openembedded" />
   <project name="poky" revision="sumo" remote="yocto" path="meta-sources/poky" />
 
