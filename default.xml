@@ -15,7 +15,7 @@
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
 
-  <project name="meta-ezlo" revision="thud"  remote="YuraCobain" path="meta-sources/meta-ezlo" />
+  <project name="meta-ezlo" revision="thud"  remote="ezloteam" path="meta-sources/meta-ezlo" />
   <project name="meta-sunxi" revision="thud"  remote="sunxi" path="meta-sources/meta-sunxi" />
   <project name="meta-golang" revision="master"  remote="golang" path="meta-sources/meta-golang" />
   <project name="meta-openembedded" revision="thud"  remote="oe" path="meta-sources/meta-openembedded" />
