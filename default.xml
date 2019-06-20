@@ -8,12 +8,14 @@
   <remote name="oe" fetch="git://git.openembedded.org" />
   <remote name="ezloml" fetch="git://github.com/ezloteam" />
   <remote name="sunxi" fetch="git://github.com/linux-sunxi" />
+  <remote name="iot-cloud" fetch="git://github.com/intel-iot-devkit">
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
        "remote": the remote host from above (if not the default)
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
 
+  <project name="meta-iot-cloud" revision="thud"  remote="iot-cloud" path="meta-sources/meta-iot-cloud" />
   <project name="meta-ezlo" revision="thud"  remote="ezloteam" path="meta-sources/meta-ezlo" />
   <project name="meta-sunxi" revision="thud"  remote="sunxi" path="meta-sources/meta-sunxi" />
   <project name="meta-openembedded" revision="thud"  remote="oe" path="meta-sources/meta-openembedded" />
