@@ -9,6 +9,7 @@
   <remote name="ezloml" fetch="git://github.com/ezloteam" />
   <remote name="sunxi" fetch="git://github.com/linux-sunxi" />
   <remote name="iot-cloud" fetch="git://github.com/intel-iot-devkit" />
+
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
        "remote": the remote host from above (if not the default)
