@@ -3,10 +3,9 @@
     <default remote="ezloteam" revision="default"/>
 
   <!-- You can have as many remote repositories as you like -->
-  <remote name="ezloteam" fetch="git://github.com/ezloteam" />
+  <remote name="ezloteam" fetch="ssh://git@github.com/ezloteam" />
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="oe" fetch="git://git.openembedded.org" />
-  <remote name="ezloml" fetch="git://github.com/ezloteam" />
   <remote name="sunxi" fetch="git://github.com/linux-sunxi" />
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
